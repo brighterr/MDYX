@@ -6,9 +6,12 @@
 
 为战略传播课堂提供一个具有问题发放和提交 AI对话 AI教辅 历史记录 等功能的课堂AI助手
 
-ADHD 一套完整的内容分析加
+ADHD 一套完整的内容分析加ai回复疏导的交叉产品
 
-    AI4EDU 课堂AI助手代码 
+    - app.py 网页
+
+
+AI4EDU 课堂AI助手代码 
 
     -demo0301 目前版本
 
@@ -20,10 +23,16 @@ ADHD 一套完整的内容分析加
      
     -test20 并发测试代码
 
-    concept_pedia 对于glossary的百科化实现 对于一个概念给出定义与相关概念
+concept_pedia 对于glossary的百科化实现 对于一个概念给出定义与相关概念
+
+    - app.py 网页
+  
+    - glossary_difinitions 概念定义
+  
+    - glossary_related_terms.csv 相近词表格
 
 
-    graphrag 对于Graphrag技术的部署
+Graphrag 对于Graphrag技术的部署
 
     - que.py 对于询问的转化代码 维护一个函数
     
