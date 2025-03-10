@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trend Visualization</title>
+</head>
+<body>
+    <h1>Trend Visualization</h1>
+    <form method="POST">
+        <label for="query">Enter a keyword:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Generate Trend Chart</button>
+    </form>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>

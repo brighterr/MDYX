@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trend Result</title>
+</head>
+<body>
+    <h1>Trend Chart</h1>
+    <img src="{{ url_for('uploaded_file', filename=image_url) }}" alt="Trend Chart">
+    <br>
+    <a href="/trend">Generate Another Trend Chart</a>
+</body>
+</html>
