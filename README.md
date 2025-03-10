@@ -10,18 +10,22 @@ ADHD 一套完整的内容分析加
 
 AI4EDU 课堂AI助手代码 
 
--demo0301 目前版本
+    -demo0301 目前版本
 
-    - aipower 具有ai课堂助手的学生端
+        - aipower 具有ai课堂助手的学生端
      
-    - student 去除ai功能的对照组
+        - student 去除ai功能的对照组
      
-    - teacher 教师端
+        - teacher 教师端
      
--test20 并发测试代码
+    -test20 并发测试代码
+
+concept_pedia 对于glossary的百科化实现 对于一个概念给出定义与相关概念
+
 
 graphrag 对于Graphrag技术的部署
 
-- que.py 对于询问的转化代码 维护一个函数
+    - que.py 对于询问的转化代码 维护一个函数
+    
+    - app.py 实现网页
 
-- app.py 实现网页
